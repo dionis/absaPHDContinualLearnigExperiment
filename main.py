@@ -41,7 +41,7 @@ trainer = ATEPC.ATEPCTrainer(
     # if you want to resume training from our pretrained checkpoints, you can pass the checkpoint name here
     auto_device=DeviceTypeOption.AUTO,
     path_to_save=None,  # set a path to save checkpoints, if it is None, save checkpoints at 'checkpoints' folder
-    checkpoint_save_mode=ModelSaveOption.SAVE_MODEL_STATE_DICT,
     load_aug=False,
     # there are some augmentation dataset for integrated datasets, you use them by setting load_aug=True to improve performance
 )
+#checkpoint_save_mode = ModelSaveOption.SAVE_MODEL_STATE_DICT,

@@ -1,2 +1,4 @@
 pyabsa
+attrs<=19
+markdown-it-py<1.1.0
 twisted
